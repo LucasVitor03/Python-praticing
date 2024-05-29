@@ -15,18 +15,18 @@ while True:
         continue
 
     try:
-        soma = float(num_1) + float(num_2)
-        subtracao = float(num_1) - float(num_2)
-        multiplicacao = float(num_1) * float(num_2)
-        divisao = float(num_1) / float(num_2)
 
         if opcoes_int == 1:
+            soma = float(num_1) + float(num_2)
             print(soma)
         elif opcoes_int == 2:
+            subtracao = float(num_1) - float(num_2)
             print(subtracao)
         elif opcoes_int == 3:
+            multiplicacao = float(num_1) * float(num_2)
             print(multiplicacao)
         elif opcoes_int == 4:
+            divisao = float(num_1) / float(num_2)
             print(divisao)
 
         sair = input("\nDeseja sair sair? [s]im ou [n]ão ").lower().startswith("s")
